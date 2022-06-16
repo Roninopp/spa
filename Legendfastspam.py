@@ -759,7 +759,7 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await put.start()
             botme = await put.get_me()
-            await put(functions.channels.JoinChannelRequest(channel="@Legend_Userbots"))
+            await put(functions.channels.JoinChannelRequest(channel="@Ronin_Fighters_Fd"))
             await put(functions.channels.JoinChannelRequest(channel="@LEGEND_MR_LOGOS"))
             await put(functions.channels.JoinChannelRequest(channel="@Legend_UserbotsSpam"))
             await put(functions.channels.JoinChannelRequest(channel="@Legendbotub"))
@@ -1375,7 +1375,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"★彡[ᴘᴏɴɢ]彡★!\n`{ms}` 𝗺𝘀")
+        await event.edit(f"★彡[ᴘᴏɴɢ]彡🇲​🇾​ 🇫​🇦​🇹​🇭​🇪​🇷​ @DushmanXRonin★!\n`{ms}` 𝗺𝘀")
 
 
     
